@@ -181,6 +181,9 @@
         height: 36px;
         fill: var(--pale-gold);
         transition: transform 0.3s ease;
+        position: fixed;
+        top: 20px;
+        right: 20px;
       }
 
       .menu-toggle.active {
@@ -1274,7 +1277,7 @@ width: 420px;
     <div class="midnight-inner scroll-reveal" style="max-width:720px;margin:0 auto;">
       <h2 id="mid-title" class="midnight-title">Cinderella got to live out her dream before the clock struck twelve — what about you?</h2>
 
-      <div id="countdown" class="countdown-timer" aria-live="polite" style="display:flex;gap:12px;justify-content:center;margin-top:1.4rem;">
+      <div id="countdown" class="countdown-timer" aria-live="polite" style="display:flex;flex-wrap: wrap; gap:12px;justify-content:center;margin-top:1.4rem;">
         <div style="min-width:86px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.04);padding:12px;border-radius:10px;">
           <div id="cd-days" style="font-size:1.6rem;color:var(--silver);font-weight:700">00</div>
           <div style="font-size:0.8rem;color:rgba(230,235,255,0.7);margin-top:6px">Days</div>
