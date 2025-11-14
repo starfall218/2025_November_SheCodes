@@ -99,6 +99,9 @@
         position: relative;
       }
 
+      .watchnowbtn {
+        color: var(--nav-bg);
+      }
       /* Hide menu off-canvas on mobile */
       nav ul {
         list-style: none;
@@ -1155,9 +1158,9 @@ width: 420px;
     <nav>
       <div class="nav-items">
         <ul>
-          <li>Home</li>
+          <li><a href="#make-a-wish">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li>Adaptations</li>
+          <li><a href="#watchnow">Watch Now</a></li>
           
         </ul>
         <div class="btns">
@@ -1182,7 +1185,7 @@ width: 420px;
       </div>
     </nav>
 
-    <section class="hero">
+    <section id="make-a-wish" class="hero">
       <div class="hero-text">
         <h1>"A Dream Is a Wish Your Heart Makes"</h1>
         <h2>The Classic Disney Story</h2>
@@ -1269,7 +1272,7 @@ width: 420px;
       </div>
       <div class="video-content">
       <div class="btn-row">
-        <a class="cta" href="#">Watch Now</a>
+        <a class="cta watchnowbtn" href="#">Watch Now</a>
         <a class="cta" href="#" style="background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--silver);">Read More</a>
       </div>
       <div class="lower-video-text">
