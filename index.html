@@ -939,6 +939,47 @@
   animation: floatDance 10s ease-in-out infinite alternate;
   filter: blur(1px);
 }
+    .footer-enny {
+    width: 100%;
+    background-color: var(--nav-bg);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Quote Styling */
+.footer-quote p {
+    font-family: 'Marcellus', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--pale-gold);
+    text-shadow: 0 0 5px rgba(255, 223, 136, 0.6), 0 0 10px rgba(255, 223, 136, 0.4);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: var(--silver);
+}
+
+/* Copyright */
+.footer-bottom .footer-copyright {
+    font-weight: 600;
+}
+
+/* Date styling if you want a subtle color difference */
+.footer-bottom .footer-date {
+    color: var(--silver);
+}
+      
 
 @keyframes floatDance {
   from { transform: translateY(0) scale(1); opacity: 0.25; }
@@ -1095,6 +1136,16 @@ width: 420px;
     }
     .lower-video-text {
       flex-direction: row;
+    }
+      .footer-enny {
+        padding: 3rem 2rem;
+    }
+    .footer-quote p {
+        font-size: 2rem;
+    }
+    .footer-bottom {
+        flex-direction: row;
+        gap: 1rem;
     }
   }
     </style>
@@ -1324,6 +1375,16 @@ width: 420px;
       <button class="make-another">Make another wish</button>
     </div>
   </section>
+
+  <footer class="footer-enny">
+  <div class="footer-quote">
+    <p>“Have courage and be kind”</p>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-date">2025</span>
+    <span class="footer-copyright">© Enny</span>
+  </div>
+  </footer>
 
 </main>
 
